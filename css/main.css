@@ -7,8 +7,17 @@ a{
 	text-decoration:none;
 }
 
+sup {
+	font-size: 10px;
+}
+
 body{
-	font-family:sans-serif;
+	font-family:'Raleway', sans-serif;
+	font-weight:bold;
+}
+
+p sup, #bold_oj{
+	color:#C97E43;
 }
 
 /* NAVIGATION */
@@ -17,6 +26,8 @@ nav {
 	min-width:100%;
 	height:70px;
 	background-color:#FE7E00;
+	border-bottom:5px ridge;
+	border-color:#F37000;
 
 }
 
@@ -26,9 +37,14 @@ nav {
 	display:inline-block;
 }
 
+span{
+	font-family:sans-serif;
+	font-weight:bold;
+}
+
 .logo{
 	float:left;
-	font-size:20px;
+	font-size:25px;
 }
 
 nav li{
@@ -37,33 +53,68 @@ nav li{
 }
 
 .logo, a:link{	
-	color:#FCCE86;
+	color:#FFFFFF;
 }
 
 /*MAIN CONTENT*/
 
 .main_content{
-	background-color:#59F9F9;
+	background-color:#F9F9F9;
+	height:600px;
+}
+
+input{
+	background-color:#EFEFED;
+	padding:8px;
+	margin:5px 15px;
+	float:right
 }
 
 p {
 	color:#E5D8C8;
-	font-size:25px;
-	line-height:1.6;
+	font-size: 40px;
+	line-height:1.4;
 	float:right;
-	margin-right:80px;
+	padding:10px;
+	margin:150px 5px ;
 }
+
 
 p a:link{
 	color:#7ACCC8;
+	font-family:sans-serif;
+	font-weight:normal;
 }
+
+ span.buttons {
+	width:50px;
+	height:20px;
+	padding: 8px;
+	margin:320px 12px;
+	float:right;
+	color:#FFFFFF;
+	font-size:12px;
+}
+
+span #quote {
+	background-color:#FE7E00;
+	border: 2px ridge;
+	border-color: #E9AA67;
+}
+
+span #cases{
+	background-color:#7ACCC8;
+	border:2px ridge;
+	border-color:#ACD4D3;
+}
+
 
 
 
 /*FOOTER*/
 
-footer{
+footer {
 	min-width:100%;
 	height:65;
-	background-color: #7ACCC8;
+	background-color:#7ACCC8;
 }
