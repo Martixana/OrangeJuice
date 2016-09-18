@@ -6,6 +6,7 @@
 
 body{
 	font-family:'Raleway', sans-serif;
+	margin-top: -10px;
 	overflow-y:hidden;
 
 }
@@ -32,46 +33,51 @@ nav {
 }
 .logo {
 		margin: 5px 0px 0px 20px;
-}
-nav li{
-	margin: 30px 5px 0px 20px;
-	font-family: 'Monda', sans-serif;
-}
-nav ul li:hover a{ 
-	color: #38948f;
-	padding: 5px;
-	background-color: #e67300;
-	border:transparent solid 1px;
-	border-radius: 6px;
-
+		float:left;
+		font-size:40px
 }
 span{
 	font-family: 'Monda', sans-serif;
 }
-.logo{
-	float:left;
-	font-size:40px;
+.logo, nav a{	
+	color:#FFFFFF;	
 }
 nav li{
+	margin: 30px 5px 0px 20px;
+	font-family: 'Monda', sans-serif;
 	float:right;
 	font-size:14px;
 	font-weight:900;
 }
-a{
-	text-decoration:none;
+nav ul li a:hover{ 
+	color: #38948f;
+	background-color: #e67300;
+	border-radius: 6px;
+	text-decoration: none;
 }
-
-/*NAV PSEUDO CLASSES*/
-.logo, nav a{	
-	color:#FFFFFF;	
-}
-nav a:hover {
- color: blue;
+nav ul li a:active{
+ color:#fff;
  text-decoration: none;
 }
-nav a:active{
- color:#6600ff
+nav ul li a:visited{
+	color: #fff;
+	text-decoration: none;
 }
+
+p>a{
+	text-decoration:none;
+	min-width: 10px;
+}
+p > a:visted{
+	color:#7ACCC8;
+	text-decoration: none;
+}
+
+
+
+
+
+
 
 
 
