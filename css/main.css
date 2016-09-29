@@ -28,7 +28,6 @@ nav {
 	border-bottom:7px ridge #F37000;
 }
 .logo, nav li{
-	padding: 10px;
 	display:inline-block;
 }
 .logo {
@@ -41,16 +40,16 @@ span{
 }
 .logo, nav a{	
 	color:#FFFFFF;	
+	padding: 8px;
 }
-nav li{
-	margin: 30px 5px 0px 20px;
+nav li {
+	margin: 37px 5px 0px 5px;
 	font-family: 'Monda', sans-serif;
 	float:right;
 	font-size:14px;
 	font-weight:900;
 }
 nav ul li a:hover{ 
-	color: #38948f;
 	background-color: #e67300;
 	border-radius: 6px;
 	text-decoration: none;
@@ -226,34 +225,64 @@ footer {
 /*===============MEDIA QUERIES=========*/
 
 
-/*--------left off with quote button and search box----------------*/
+@media (max-width:1167px){
+	body{
+		overflow-y:visible;
+	}
+	input{
+		margin-right: 10px;
+	}
 
+	p{
+		font-size: 20px;
+		margin-right: 5px;
+	}
+	#quote, #cases{
+		width: 150px;
+		padding:5px;
+		font-size: 0.7em;
 
-@media (max-width:1252px){
-
-nav{
-display:none;
+	}
+}
+@media (max-width:970px){
+	img{
+		display: none;
+	}
+}
+@media(max-width:500px){
+	nav{
+		min-height: 180px;
+	}
+	nav li{
+		font-size: 11px;
+		margin: 50px 0px 0px 0px;
+	}
+	input{
+		display:none;
+	}
 }
 
 
-.navbar_logo{
-	padding: 10px;
-	display:inline-block;
-	float:left;
-	margin: 5px 0px 0px 20px;
-	font-size:40px;
-	color:#FFFFFF;	
-}
 
-.navbar-nav{
-	font-family:sans-serif;
-	font-weight:bold;
-	float:left;
-	font-size:14px;
-}
 
-input{
-	text-align:center;
-}
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
