@@ -7,7 +7,7 @@
 body{
 	font-family:'Raleway', sans-serif;
 	margin-top: -10px;
-	overflow-y:hidden;
+	/*overflow-y:hidden;*/
 
 }
 
@@ -31,7 +31,7 @@ nav {
 	display:inline-block;
 }
 .logo {
-		margin: 5px 0px 0px 20px;
+		margin: 30px 0px 0px 40px;
 		float:left;
 		font-size:40px
 }
@@ -40,21 +40,28 @@ span{
 }
 .logo, nav a{	
 	color:#FFFFFF;	
-	padding: 8px;
+	padding: 2px;
+}
+ul.nav.navbar-nav{
+	margin-left: 450px;
 }
 nav li {
-	margin: 37px 5px 0px 5px;
+	margin: 25px 4px 0px 4px;
 	font-family: 'Monda', sans-serif;
 	float:right;
 	font-size:14px;
 	font-weight:900;
 }
-nav ul li a:hover{ 
-	background-color: #e67300;
-	border-radius: 6px;
-	text-decoration: none;
+.navbar-nav>li>a {
+     padding-top: 10px; 
+     padding-bottom:0;
+    }
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #e67300;
+    border-radius: 6px;
 }
-nav ul li a:active{
+/*nav ul li a:active{
  color:#fff;
  text-decoration: none;
 }
@@ -67,14 +74,7 @@ p>a{
 	text-decoration:none;
 	min-width: 10px;
 }
-p > a:visted{
-	color:#7ACCC8;
-	text-decoration: none;
-}
-
-
-
-
+*/
 
 
 
@@ -90,7 +90,8 @@ p > a:visted{
 	display: flex;
 	flex-flow: row;
 }
-/*Left Side*/
+
+/**********Left Side************/
 
 section > .leftSide{
 	margin: 4px;
@@ -106,7 +107,7 @@ img{
 	margin:20px 10px 30px 60px;
 }
 
-/*Right Side*/
+/*************Right Side****************/
 
 section > .rightSide {
 margin: 4px;
@@ -116,7 +117,7 @@ order: 2;
 }
 
 /*Search Box*/
-input{
+.form-control{
 	background-color:#EFEFED;
 	padding:8px;
 	margin:10px 30px;
@@ -126,7 +127,7 @@ input{
 	-webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-input[type=text]:focus{
+.form-control[type=text]:focus{
 	width: 28%;
 	background-color: #b5e3e1;
 	color:#000;
@@ -205,6 +206,37 @@ p > a:visited{
 	border-color: #ffb366;
 	font-size: 1.1em;
 	
+}
+/*****Gallery Section*****/
+.container{
+	margin-left: 120px;
+}
+.col-sm-4 {
+    width: 28%;
+    margin-left:0px;
+    margin-right:0px;
+    text-align: center;
+}
+/*body {
+    margin-left: 120px;
+}*/
+.headingTitle{
+	margin-top: 150px;
+	margin-left:345px;
+	padding: 30px 50px 30px 0px;
+}
+img{
+	margin-left: 50px;
+	border: 3px ridge aliceblue;
+    border-radius: 8px;
+}
+.img-responsive{
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+}
+.thumbnail{
+	border: 0px;
 }
 
 
